@@ -11,7 +11,7 @@ const items = [
     { name: "Ephraim", wins: 0, games: 0 },
     { name: "Rhys", wins: 0, games: 0 },
     { name: "Rou", wins: 0, games: 0 },
-    { name: "Lee", wins: 0, games: 0 },
+    { name: "Hackbacon", wins: 0, games: 0 },
     { name: "Alyx", wins: 0, games: 0 },
     { name: "Xinyi", wins: 0, games: 0 },
     { name: "Rena", wins: 0, games: 0 }
