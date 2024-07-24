@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+* {
+    font-family: Copperplate;
+}
+
+#userSelectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#userSelection {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+#startVoting {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#matchupContainer {
+    display: flex;
+    flex: 1;
+}
+
+.voteButton {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+#voteForItem1 {
+    background-color: #D2B48C;
+    color: black;
+}
+
+#voteForItem2 {
+    background-color: #F5F5DC; 
+    color: black;
+}
+
+.voteButton:hover {
+    opacity: 0.8;
+}
+
+#status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#statusMessage {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#copyResults {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+    cursor: no-drop;
+}
+
+#backButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 2%;
+}

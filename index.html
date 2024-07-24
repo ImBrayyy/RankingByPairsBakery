@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matchup Voting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vote for the Better Item</h1>
+    <div id="userSelectionContainer">
+        <h2>Select Your User</h2>
+        <select id="userSelection">
+            <option value="">--Select User--</option>
+        </select>
+        <button id="startVoting">Start Voting</button>
+    </div>
+    <div id="matchupContainer" class="hidden">
+        <button id="voteForItem1" class="voteButton"></button>
+        <button id="voteForItem2" class="voteButton"></button>
+    </div>
+    <div id="status">
+        <button id="backButton" class="voteButton">Back</button>
+        <p id="statusMessage">Please vote!</p>
+    </div>
+    <button id="copyResults" class="hidden">Copy Results</button>
+    <script src="script.js"></script>
+</body>
+</html>
